@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>About Me</title>
+  <style>
+    #bg-img{
+    border: 10px solid;
+    border-color: black #444 #888 #ccc;
+
+    }
+    h2 { 
+      display: block;
+      font-size: 1.5em;
+      margin-top: 1.67em;
+      margin-bottom: 1.67em;
+      margin-left: 0;
+      margin-right: 0;
+      font-weight: bold;
+    }
+    p.inset {border-style: inset;}
+    p.groove {border-style: groove;}
+    p.round1 {
+      border: 2px solid grey;
+      border-radius: 5px;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    
+    .topnav-right {
+      float: right;
+    }
+    #box {
+  /* background-color: lightgrey; */
+  width: 3000px;
+  border: 15px solid green;
+  padding: 1px;
+  margin: 1px;
+  float: left;
+}
+    </style>
+</head>
+
+
+
+  <body id="bg-img" style="background-color: AliceBlue;">
+
+
+    <div id="box" class="topnav bg-info text-center py-1 rounded">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact Me</a>
+      <a href="work.html">My Work</a>
+      <!-- <div class="topnav-right">
+        <a href="LiveData.html">Home Town</a>
+       <a href="#">Image Gallery</a>
+       <a href="#">Activities</a>
+      
+      </div> -->
+    </div>
+
+
+
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+        <!-- <li class="nav-item">
+          <a href="Resume.html" class="nav-link">
+            Resume
+          </a>
+        </li> -->
+      </ul>
+    </nav>
+  </header>
+
+  <main id="about">
+    <h1 class="lg-heading">
+      About
+      <span class="text-secondary">Me</span>
+    </h1>
+    <!-- <h2 class="sm-heading" style="color: blue;">
+      Greate Things Take Time!!
+    </h2> -->
+    <div class="about-info">
+      <img src="img/IMG-1798.JPG" alt="Kahsay Ftwi" class="img-circle" alt="Cinque Terre" width="451" height="449" class="bio-image">
+
+      <div class="bio">
+        <h3 class="text-secondary">BIO</h3>
+        <h3 class="sm-heading" style="text-align: center;" style="color: blue;">
+          Greate Things Take Time!!
+        </h3>
+        <h3>Born in Ethiopia and moved to US in 2012, Holds a:</h3>
+          <div style="text-align: center;" style="font-weight: 100;">
+            <li> B.S. in Chemical Engineering from Hawassa University 2011, Ethiopia</li>
+            <li> B.S. in Electrical Engineering from UNC Charlotte 2017, USA.</li>
+            <li> B.S. in Computer Science from UNC Charlotte 2020, USA.</li>
+          </div>
+      </div>
+
+      <div class="job job-1">
+        <h3>Engineer</h3>
+        <h6>Quality Control Coordinator</h6>
+        <p>	Maintain, Troubleshoot and calibrate laboratory equipments HPLC and GC.</p>
+      </div>
+
+      <div class="job job-2">
+        <h3>Data scientist</h3>
+        <h6>Data Base Admin</h6>
+        <p>Detail oriented data analyst with 5+ years of in-depth experience in interpreting and analyzing data to
+          drive growth for a pharmaceutical company.</p>
+      </div>
+
+      <div class="job job-3">
+        <h3>Web Developer</h3>
+        <h6>python Developer</h6>
+        <p>hands on industrial experience in Development and Deployment  web apps using Flask-Python.
+          Solid client-side development experience with HTML5, CSS3 and JavaScript. .</p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2020KG
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
